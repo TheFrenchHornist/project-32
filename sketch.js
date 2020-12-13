@@ -69,7 +69,7 @@ function draw() {
   box12.score();
   rope.display();
 
-  text("x:"+ mouseX+", y :"+mouseY, mouseX,mouseY);
+  //text("x:"+ mouseX+", y :"+mouseY, mouseX,mouseY);
   textSize(40);
   text("score: " + score , 1300, 60);
   console.log(score);
